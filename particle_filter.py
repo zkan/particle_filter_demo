@@ -208,6 +208,8 @@ world.draw()
 particles = Particle.create_random(PARTICLE_COUNT, world)
 robbie = Robot(world)
 
+raw_input()
+
 while True:
     # Read robbie's sensor
     r_d = robbie.read_sensor(world)
